@@ -7,4 +7,4 @@ Synthetic report/clip screenshots for alphaXiv/OpenResearch#1033. No private res
 - install-light.png: expandable package commands and keyboard-focused download link.
 - install-dark-zh.png: Chinese, dark appearance, 900 × 700 window and keyboard-focused download link.
 
-The tested pre-main-sync package for the 21-case matrix has SHA256 439eb1a366f866a500051b53d8ddbf6580e804def8b892802a2b812f1859de4e (99,973,624 bytes). Its Linux media changes are in cea4387. The two installation screenshots use the same UI component revision from the preceding native inspection.
+After syncing main, the rebuilt package again passed all 21 native-window scenarios. SHA256: aac09762ecd31eb6dad9a3f4b486756b7c1214c47e2e7d5b183f5122ffc878d8 (100,039,160 bytes). Runtime/UI source matches the main-synced PR; head 8c928ad also includes the Ubuntu runner SDK setup correction. Media screenshots above were refreshed from that package. The two installation screenshots use the unchanged media component from the preceding native inspection.
